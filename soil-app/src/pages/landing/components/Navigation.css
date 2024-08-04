@@ -1,0 +1,34 @@
+#navbar {
+    margin: 0;
+    float: right;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar li {
+    display: inline-block;
+}
+
+#navbar li:last-child {
+    margin-left: 10px;
+}
+
+#navbar li:nth-last-child(2) {
+    margin-left: 300px;
+}
+
+#navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0 20px;
+}
+
+#navbar a:hover {
+    color: #ff0000;
+}

@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+    text-align: left;
+    /* Align content to the left */
+}
+
+.centered-text {
+    position: fixed;
+    top: 50%;
+    left: 100px;
+    transform: translateY(-50%);
+}
+
+.company-name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: #000000;
+}
+
+.main {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.introduction {
+    max-width: 35%;
+}
+
+.introduction .description {
+    font-family: 'Lato';
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.25;
+}
+
+.introduction .foot {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: #000000;
+    line-height: 1.25;
+}

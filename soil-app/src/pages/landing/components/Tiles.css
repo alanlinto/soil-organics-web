@@ -1,0 +1,111 @@
+.centered-tile {
+    position: fixed;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+}
+
+.tile {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 5px solid #838181ba;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    background-color: #cdc5c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.ribbon {
+    position: absolute;
+    top: 10px;
+    /* Adjust as needed */
+    left: 25px;
+    /* Adjust as needed */
+    background-color: #df1e1e;
+    /* Ribbon background color */
+    color: #ffffff;
+    /* Ribbon text color */
+    padding: 10px 10px;
+    /* Adjust as needed */
+    font-size: 16px;
+    /* Adjust as needed */
+    font-weight: bold;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    transform: rotate(0deg);
+}
+
+.ribbon::before,
+.ribbon::after {
+    content: '';
+    position: absolute;
+}
+
+.ribbon::before {
+    top: 0;
+    left: -20px;
+    border-width: 10px 0 10px 20px;
+    /* Adjust as needed */
+    border-style: solid;
+    border-color: transparent transparent transparent #df1e1e;
+    /* Adjust as needed */
+}
+
+.ribbon::after {
+    bottom: 0;
+    right: -20px;
+    border-width: 10px 20px 10px 0;
+    /* Adjust as needed */
+    border-style: solid;
+    border-color: #df1e1e transparent transparent transparent;
+    /* Adjust as needed */
+}
+
+
+.tile h2 {
+    margin-top: 0;
+    /* Remove default margin */
+}
+
+.tile img {
+    width: 80%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid #838181ba;
+}
+
+.tile p {
+    margin-top: 5px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    cursor: pointer;
+    color: #838181ba;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.price-tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 50px;
+    color: #000;
+    z-index: 1;
+    font-family: 'Lato';
+}

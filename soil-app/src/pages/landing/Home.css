@@ -1,0 +1,37 @@
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+}
+
+.custom-image {
+    width: 100%;
+    /* Set image width to 100% of its container */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-top: 0px;
+    /* Add some top margin */
+}
+
+/* Reset margins and padding on HTML and body */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background image on body */
+.body {
+    /* background-image: url('https://www.foodnavigator.com/var/wrbm_gb_food_pharma/storage/images/_aliases/wrbm_large/5/1/0/7/2097015-1-eng-GB/Why-do-people-buy-organic-Separating-myth-from-motivation.jpg'); */
+    background-size: cover;
+    /* Cover the entire background */
+    background-position: center;
+    /* Center the background */
+    min-height: 100vh;
+    /* Set minimum height to full viewport height */
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Apple",
+        "qty": 2,
+        "cost": 5.00,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "title": "Banana",
+        "qty": 1,
+        "cost": 1.50,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "title": "Orange",
+        "qty": 3,
+        "cost": 1.75,
+        "image": "https://via.placeholder.com/150"
+    }
+]
